@@ -46,7 +46,7 @@ public class ConstantData {
 	public static final int LOGINPAGE_CUSTOMER_USERNAME_EXCEL_COLUMN=1;
 	public static final int LOGINPAGE_CUSTOMER_PASSWORD_EXCEL_ROW=9;
 	public static final int LOGINPAGE_CUSTOMER_PASSWORD_EXCEL_COLUMN=1;
-	public static final String EXPECTED_WELCOME_USER_MESSAGE="Welcome hardy hardy"; 
+	public static final String EXPECTED_WELCOME_USER_MESSAGE="Welcome henry henry"; 
 	
 	// OPEN NEW ACCOUNT PAGE
 	public static final String EXPECTED_NEW_ACCOUNT_OPEN_MESSAGE="Account Opened!";
