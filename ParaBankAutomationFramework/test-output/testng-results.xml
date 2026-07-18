@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-07-18T23:40:54 IST" name="ParaBank Automation Suite" finished-at="2026-07-18T23:42:35 IST" duration-ms="100446">
+    <groups>
+      <group name="regression">
+        <method signature="UserRegistrationTestCases.verifyUserRegistration()[pri:0, instance:paraBankTestCases.UserRegistrationTestCases@2c104774]" name="verifyUserRegistration" class="paraBankTestCases.UserRegistrationTestCases"/>
+        <method signature="LogInTestCases.verifyLoginFunctionality()[pri:1, instance:paraBankTestCases.LogInTestCases@1cd201a8]" name="verifyLoginFunctionality" class="paraBankTestCases.LogInTestCases"/>
+        <method signature="LogOutTestCases.verifyLogOutFunctionality()[pri:2, instance:paraBankTestCases.LogOutTestCases@7db82169]" name="verifyLogOutFunctionality" class="paraBankTestCases.LogOutTestCases"/>
+        <method signature="OpenNewAccountTestCases.verifyNewAccountOpen()[pri:3, instance:paraBankTestCases.OpenNewAccountTestCases@1992eaf4]" name="verifyNewAccountOpen" class="paraBankTestCases.OpenNewAccountTestCases"/>
+        <method signature="TransferFundsTestCases.verifyFundTransfer()[pri:4, instance:paraBankTestCases.TransferFundsTestCases@f74e835]" name="verifyFundTransfer" class="paraBankTestCases.TransferFundsTestCases"/>
+        <method signature="RequestLoanTestCases.verifyLoanRequest()[pri:5, instance:paraBankTestCases.RequestLoanTestCases@3276732]" name="verifyLoanRequest" class="paraBankTestCases.RequestLoanTestCases"/>
+        <method signature="UpdateProfileInfoTestCases.verifyUpdateProfileInfo()[pri:6, instance:paraBankTestCases.UpdateProfileInfoTestCases@3f28bd56]" name="verifyUpdateProfileInfo" class="paraBankTestCases.UpdateProfileInfoTestCases"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2026-07-18T23:40:54 IST" name="Regression Suite" finished-at="2026-07-18T23:42:35 IST" duration-ms="100446">
+      <class name="paraBankTestCases.TransferFundsTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.TransferFundsTestCases@f74e835]" started-at="2026-07-18T23:41:48 IST" name="launchBrowser" finished-at="2026-07-18T23:41:53 IST" duration-ms="4839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFundTransfer()[pri:4, instance:paraBankTestCases.TransferFundsTestCases@f74e835]" started-at="2026-07-18T23:41:53 IST" name="verifyFundTransfer" finished-at="2026-07-18T23:42:09 IST" duration-ms="16178" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFundTransfer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.TransferFundsTestCases@f74e835]" started-at="2026-07-18T23:42:09 IST" name="closeBrowser" finished-at="2026-07-18T23:42:10 IST" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paraBankTestCases.TransferFundsTestCases -->
+      <class name="paraBankTestCases.RequestLoanTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.RequestLoanTestCases@3276732]" started-at="2026-07-18T23:42:10 IST" name="launchBrowser" finished-at="2026-07-18T23:42:16 IST" duration-ms="5844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoanRequest()[pri:5, instance:paraBankTestCases.RequestLoanTestCases@3276732]" started-at="2026-07-18T23:42:16 IST" name="verifyLoanRequest" finished-at="2026-07-18T23:42:22 IST" duration-ms="6213" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoanRequest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.RequestLoanTestCases@3276732]" started-at="2026-07-18T23:42:22 IST" name="closeBrowser" finished-at="2026-07-18T23:42:22 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paraBankTestCases.RequestLoanTestCases -->
+      <class name="paraBankTestCases.LogInTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.LogInTestCases@1cd201a8]" started-at="2026-07-18T23:41:15 IST" name="launchBrowser" finished-at="2026-07-18T23:41:22 IST" duration-ms="6848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginFunctionality()[pri:1, instance:paraBankTestCases.LogInTestCases@1cd201a8]" started-at="2026-07-18T23:41:22 IST" name="verifyLoginFunctionality" finished-at="2026-07-18T23:41:25 IST" duration-ms="2436" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.LogInTestCases@1cd201a8]" started-at="2026-07-18T23:41:25 IST" name="closeBrowser" finished-at="2026-07-18T23:41:25 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paraBankTestCases.LogInTestCases -->
+      <class name="paraBankTestCases.UpdateProfileInfoTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.UpdateProfileInfoTestCases@3f28bd56]" started-at="2026-07-18T23:42:22 IST" name="launchBrowser" finished-at="2026-07-18T23:42:27 IST" duration-ms="5106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUpdateProfileInfo()[pri:6, instance:paraBankTestCases.UpdateProfileInfoTestCases@3f28bd56]" started-at="2026-07-18T23:42:27 IST" name="verifyUpdateProfileInfo" finished-at="2026-07-18T23:42:34 IST" duration-ms="6551" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateProfileInfo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.UpdateProfileInfoTestCases@3f28bd56]" started-at="2026-07-18T23:42:34 IST" name="closeBrowser" finished-at="2026-07-18T23:42:35 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paraBankTestCases.UpdateProfileInfoTestCases -->
+      <class name="paraBankTestCases.OpenNewAccountTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.OpenNewAccountTestCases@1992eaf4]" started-at="2026-07-18T23:41:37 IST" name="launchBrowser" finished-at="2026-07-18T23:41:43 IST" duration-ms="6368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyNewAccountOpen()[pri:3, instance:paraBankTestCases.OpenNewAccountTestCases@1992eaf4]" started-at="2026-07-18T23:41:43 IST" name="verifyNewAccountOpen" finished-at="2026-07-18T23:41:47 IST" duration-ms="4159" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNewAccountOpen -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.OpenNewAccountTestCases@1992eaf4]" started-at="2026-07-18T23:41:47 IST" name="closeBrowser" finished-at="2026-07-18T23:41:48 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paraBankTestCases.OpenNewAccountTestCases -->
+      <class name="paraBankTestCases.UserRegistrationTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.UserRegistrationTestCases@2c104774]" started-at="2026-07-18T23:40:54 IST" name="launchBrowser" finished-at="2026-07-18T23:41:04 IST" duration-ms="9871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUserRegistration()[pri:0, instance:paraBankTestCases.UserRegistrationTestCases@2c104774]" started-at="2026-07-18T23:41:04 IST" name="verifyUserRegistration" finished-at="2026-07-18T23:41:14 IST" duration-ms="10338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserRegistration -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.UserRegistrationTestCases@2c104774]" started-at="2026-07-18T23:41:14 IST" name="closeBrowser" finished-at="2026-07-18T23:41:15 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paraBankTestCases.UserRegistrationTestCases -->
+      <class name="paraBankTestCases.LogOutTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.LogOutTestCases@7db82169]" started-at="2026-07-18T23:41:25 IST" name="launchBrowser" finished-at="2026-07-18T23:41:33 IST" duration-ms="7264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLogOutFunctionality()[pri:2, instance:paraBankTestCases.LogOutTestCases@7db82169]" started-at="2026-07-18T23:41:33 IST" name="verifyLogOutFunctionality" finished-at="2026-07-18T23:41:36 IST" duration-ms="3241" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogOutFunctionality -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.LogOutTestCases@7db82169]" started-at="2026-07-18T23:41:36 IST" name="closeBrowser" finished-at="2026-07-18T23:41:37 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paraBankTestCases.LogOutTestCases -->
+    </test> <!-- Regression Suite -->
+  </suite> <!-- ParaBank Automation Suite -->
+</testng-results>
