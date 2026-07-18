@@ -35,7 +35,7 @@ public class LogOutTestCases extends BaseClass {
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(ConstantData.EXPLICIT_WAIT_TIME));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(LogOutPage.customerLoginText()));
 		
-		Boolean result = driver.findElement(LogOutPage.customerLoginText()).isDisplayed();
+		boolean result = driver.findElement(LogOutPage.customerLoginText()).isDisplayed();
 		
 		if (result == true) {
 			logger.info("User Successfully Logged out and navigated to Customer Login Page");
