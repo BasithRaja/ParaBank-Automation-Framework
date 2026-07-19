@@ -45,5 +45,16 @@ public class RequestLoanPage {
 	  			
 	      }
   
+  public static By loanNewAccountIdInAccountSummary() {
+	  	
+	  	return By.xpath("//table[@id=\"accountTable\"]/tbody/tr[3]/td/a");
+	  			
+	      }
 
+
+  public static By accountTypeInfo() {
+	  	
+	  	return By.xpath("//td[@id=\"accountType\"]");
+	  			
+	      }
 }

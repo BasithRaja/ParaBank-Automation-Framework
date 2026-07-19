@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import constantClasses.ConstantData;
+import paraBankPages.LogOutPage;
 import paraBankPages.UpdateProfileInfoPage;
 import paraBankPages.UserRegistrationPage;
 import utilities.BaseClass;
@@ -28,7 +29,7 @@ public class UpdateProfileInfoTestCases extends BaseClass {
 	@Test(priority=6,groups="regression",retryAnalyzer=utilities.RetryAnalyzer.class)
 	public static void verifyUpdateProfileInfo() throws IOException {
 		
-	   LogInTestCases.verifyLoginFunctionality();
+	    LogInTestCases.verifyLoginFunctionality();
 		
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(ConstantData.EXPLICIT_WAIT_TIME));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(UserRegistrationPage.accountServicesPage()));
@@ -48,6 +49,10 @@ public class UpdateProfileInfoTestCases extends BaseClass {
 		
 		driver.findElement(UpdateProfileInfoPage.updateProfileBtn()).click();
 		
+		driver.findElement(LogOutPage.logOutLink()).click();
+		
+		LogInTestCases.verifyLoginFunctionality();
+		
 		driver.findElement(UpdateProfileInfoPage.updateProfileLink()).click();
 	
 		WebElement addressFieldAfterUpdate = driver.findElement(UpdateProfileInfoPage.updateAddressField());
@@ -56,9 +61,13 @@ public class UpdateProfileInfoTestCases extends BaseClass {
 		String updatedAddress = driver.findElement(UpdateProfileInfoPage.updateAddressField()).getAttribute("value");
 		
 		if (initialAddress != updatedAddress) {
-			logger.info("Customer Address has been successfully updated");
+			logger.info("Customer Address has been successfully updated after relogin");
+			logger.info("Initial Address: "+ initialAddress);
+			logger.info("Newly updated Address: "+ updatedAddress);
 		} else {
-			logger.info("Customer Address has not been updated");
+			logger.info("Customer Address has not been updated after relogin");
+			logger.info("Initial Address: "+ initialAddress);
+			logger.info("Newly updated Address: "+ updatedAddress);
 		}
 		
 		SoftAssert soft = new SoftAssert();

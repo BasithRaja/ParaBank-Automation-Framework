@@ -6,6 +6,14 @@
         <listener class-name="utilities.TestListeners"></listener>
     </listeners>
     
+      <test thread-count="5" name="Retesting Cases">
+      <groups><run> <include name = "retest"> </include> </run></groups>
+      <classes>
+      <class name = "paraBankTestCases.RetestingTestCases"></class>
+      </classes> 
+      </test> <!-- Retesting Cases -->
+    
+  <!--
   <test thread-count="5" name="Regression Suite">
   <groups><run> <include name = "regression"> </include> </run></groups>
   <classes>
@@ -17,5 +25,5 @@
   <class name = "paraBankTestCases.RequestLoanTestCases"></class>
   <class name = "paraBankTestCases.UpdateProfileInfoTestCases"></class>
   </classes>
-  </test> <!-- Regression Suite -->
+  </test> --> <!-- Regression Suite -->
 </suite> <!-- ParaBank Automation Suite -->

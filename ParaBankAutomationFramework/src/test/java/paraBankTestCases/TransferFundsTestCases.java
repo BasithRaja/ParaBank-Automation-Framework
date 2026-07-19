@@ -26,10 +26,10 @@ import utilities.TestListeners;
 public class TransferFundsTestCases extends BaseClass {
 	
 	private static final Logger logger = LogManager.getLogger(TransferFundsTestCases.class);
-	WebElement fromAccountDropDownOptions;
+    WebElement fromAccountDropDownOptions;
 	WebElement toAccountDropDownOptions;
 	WebDriverWait wait;
-	String actualTransferSuccessMessage;
+    String actualTransferSuccessMessage;
 	SoftAssert soft;
 	String actualNewAccountNumber;
 	String actualNewAccountBalance;

@@ -7,6 +7,7 @@ import java.time.Duration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -15,6 +16,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import constantClasses.ConstantData;
+import paraBankPages.TransferFundsPage;
 import paraBankPages.UserRegistrationPage;
 import utilities.BaseClass;
 import utilities.FetchDataFromExcel;
@@ -60,7 +62,14 @@ public class UserRegistrationTestCases extends BaseClass {
 	    soft.assertEquals(actualPageTitle, ConstantData.EXPECTED_WELCOME_PAGE_TITLE);
 	    
 	    soft.assertAll();
-	
+	    
+	    driver.findElement(TransferFundsPage.accountOverviewURL()).click();
+	    
+	    wait.until(ExpectedConditions.visibilityOfElementLocated(UserRegistrationPage.initialAccountID()));
+	    
+	    String initialAccountID = driver.findElement(UserRegistrationPage.initialAccountID()).getText();
+	    FetchDataFromExcel.writeData(ConstantData.RETEST_USER1_NEW_ACCOUNT_ID_STORE_IN_EXCEL_ROW, ConstantData.RETEST_USER1_NEW_ACCOUNT_ID_STORE_IN_EXCEL_COLUMN, initialAccountID);
+	   
 		
 	}
 }

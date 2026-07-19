@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [ParaBank Automation Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Regression Suite(failed)">
+  <listeners>
+    <listener class-name="utilities.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Retesting Cases(failed)">
     <groups>
       <run>
-        <include name="regression"/>
+        <include name="retest"/>
       </run>
     </groups>
     <classes>
-      <class name="paraBankTestCases.TransferFundsTestCases">
+      <class name="paraBankTestCases.RetestingTestCases">
         <methods>
-          <include name="verifyFundTransfer"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
+          <include name="verifyLoanDetailsVisibility"/>
         </methods>
-      </class> <!-- paraBankTestCases.TransferFundsTestCases -->
+      </class> <!-- paraBankTestCases.RetestingTestCases -->
     </classes>
-  </test> <!-- Regression Suite(failed) -->
+  </test> <!-- Retesting Cases(failed) -->
 </suite> <!-- Failed suite [ParaBank Automation Suite] -->

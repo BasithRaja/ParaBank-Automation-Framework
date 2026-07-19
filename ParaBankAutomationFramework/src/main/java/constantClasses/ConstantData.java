@@ -46,7 +46,7 @@ public class ConstantData {
 	public static final int LOGINPAGE_CUSTOMER_USERNAME_EXCEL_COLUMN=1;
 	public static final int LOGINPAGE_CUSTOMER_PASSWORD_EXCEL_ROW=9;
 	public static final int LOGINPAGE_CUSTOMER_PASSWORD_EXCEL_COLUMN=1;
-	public static final String EXPECTED_WELCOME_USER_MESSAGE="Welcome katty katty"; 
+	public static final String EXPECTED_WELCOME_USER_MESSAGE="Welcome tom tom"; 
 	
 	// OPEN NEW ACCOUNT PAGE
 	public static final String EXPECTED_NEW_ACCOUNT_OPEN_MESSAGE="Account Opened!";
@@ -62,7 +62,7 @@ public class ConstantData {
 	public static final String EXPECTED_NEW_ACCOUNT_BALANCE = "$200.00";
 	public static final String EXPECTED_NEW_ACCOUNT_BALANCE_2 = "$300.00";
 	public static final int FROM_ACCOUNT_SELECTBY_INDEX = 0;
-	public static final int TO_ACCOUNT_SELECTBY_INDEX = 2;
+	public static final int TO_ACCOUNT_SELECTBY_INDEX = 1;
 	
 	// LOAN REQUEST PAGE
 	public static final int LOAN_FROM_ACCOUNT_ID_SELECT_BY_INDEX = 0;
@@ -76,4 +76,23 @@ public class ConstantData {
 	// UPDATE PROFILE PAGE
 	 public static final int UPDATE_PROFILE_PAGE_UPDATED_CUSTOMER_ADDRESS_EXCEL_ROW=15;
 	 public static final int UPDATE_PROFILE_PAGE_UPDATED_CUSTOMER_ADDRESS_EXCEL_COLUMN=1;
+	 
+	// RETESTING 
+	 public static final int RETEST_USER1_NEW_ACCOUNT_ID_STORE_IN_EXCEL_ROW=16;
+	 public static final int RETEST_USER1_NEW_ACCOUNT_ID_STORE_IN_EXCEL_COLUMN=1;
+	 public static final int RETEST_USER2_NEW_ACCOUNT_ID_STORE_IN_EXCEL_ROW=24;
+	 public static final int RETEST_USER2_NEW_ACCOUNT_ID_STORE_IN_EXCEL_COLUMN=1;
+	 public static final int RETEST_USER2_USER_REGISTRATION_CUSTOMER_FIRST_NAME_EXCEL_ROW=19;
+	 public static final int RETEST_USER2_USER_REGISTRATION_CUSTOMER_FIRST_NAME_EXCEL_COLUMN=1;
+	 public static final int RETEST_USER2_USER_REGISTRATION_CUSTOMER_LAST_NAME_EXCEL_ROW=20;
+	 public static final int RETEST_USER2_USER_REGISTRATION_CUSTOMER_LAST_NAME_EXCEL_COLUMN=1;
+	 public static final int RETEST_USER2_USER_REGISTRATION_CUSTOMER_USERNAME_EXCEL_ROW=21;
+	 public static final int RETEST_USER2_USER_REGISTRATION_CUSTOMER_USERNAME_EXCEL_COLUMN=1;
+	 public static final int RETEST_USER2_USER_REGISTRATION_CUSTOMER_PASSWORD_EXCEL_ROW=22;
+	 public static final int RETEST_USER2_USER_REGISTRATION_CUSTOMER_PASSWORD_EXCEL_COLUMN=1;
+	 public static final int RETEST_USER2_USER_REGISTRATION_PASSWORD_CONFIRMATION_EXCEL_ROW=23;
+	 public static final int RETEST_USER2_USER_REGISTRATION_PASSWORD_CONFIRMATION_EXCEL_COLUMN=1;
+	 
+	 public static final String ACCOUNT_TYPE_INFO= "LOAN";
 }  
+
