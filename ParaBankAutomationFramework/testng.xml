@@ -6,12 +6,28 @@
         <listener class-name="utilities.TestListeners"></listener>
     </listeners>
     
+     <!--
       <test thread-count="5" name="Retesting Cases">
       <groups><run> <include name = "retest"> </include> </run></groups>
       <classes>
       <class name = "paraBankTestCases.RetestingTestCases"></class>
       </classes> 
-      </test> <!-- Retesting Cases -->
+      </test> --> <!-- Retesting Cases -->
+      
+      
+      <test thread-count="5" name="API Automation Suite">
+      <groups><run> <include name = "API Test"> </include> </run></groups>
+      <classes>
+      <class name = "paraBankAPITesting.GET_Account_By_Id"></class>
+      <class name = "paraBankAPITesting.GET_List_Of_Transaction_For_An_Account"></class>
+      <class name = "paraBankAPITesting.GET_User_Details"></class>
+      <class name = "paraBankAPITesting.POST_Bill_Pay"></class>
+      <class name = "paraBankAPITesting.POST_Create_NewAccount"></class>
+      <class name = "paraBankAPITesting.POST_Deposit_Fund"></class>
+      <class name = "paraBankAPITesting.POST_Request_Loan"></class>
+      <class name = "paraBankAPITesting.POST_Transfer_Funds"></class>
+      </classes> 
+      </test> <!-- API Test -->
     
   <!--
   <test thread-count="5" name="Regression Suite">

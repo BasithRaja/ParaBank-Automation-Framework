@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Opening Browser for Test execution]]>
@@ -25,23 +25,47 @@
     <line>
       <![CDATA[Test Case Successful]]>
     </line>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser for Test execution]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Successful]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-07-20T02:34:48 IST" name="ParaBank Automation Suite" finished-at="2026-07-20T02:36:12 IST" duration-ms="83965">
+  <suite started-at="2026-07-22T02:40:27 IST" name="ParaBank Automation Suite" finished-at="2026-07-22T02:40:39 IST" duration-ms="11406">
     <groups>
-      <group name="retest">
-        <method signature="RetestingTestCases.verifyBalanceAmountUpdate()[pri:0, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" name="verifyBalanceAmountUpdate" class="paraBankTestCases.RetestingTestCases"/>
-        <method signature="RetestingTestCases.verifyUniqueAccountNumber()[pri:1, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" name="verifyUniqueAccountNumber" class="paraBankTestCases.RetestingTestCases"/>
-        <method signature="RetestingTestCases.verifyLoanDetailsVisibility()[pri:2, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" name="verifyLoanDetailsVisibility" class="paraBankTestCases.RetestingTestCases"/>
-        <method signature="RetestingTestCases.verifyProfileUpdate()[pri:3, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" name="verifyProfileUpdate" class="paraBankTestCases.RetestingTestCases"/>
-      </group> <!-- retest -->
+      <group name="API Test">
+        <method signature="GET_Account_By_Id.getAccountById()[pri:0, instance:paraBankAPITesting.GET_Account_By_Id@5c86a017]" name="getAccountById" class="paraBankAPITesting.GET_Account_By_Id"/>
+        <method signature="GET_List_Of_Transaction_For_An_Account.getListOfTransactionForAnAccount()[pri:1, instance:paraBankAPITesting.GET_List_Of_Transaction_For_An_Account@7d3e8655]" name="getListOfTransactionForAnAccount" class="paraBankAPITesting.GET_List_Of_Transaction_For_An_Account"/>
+        <method signature="GET_User_Details.getUserDetails()[pri:2, instance:paraBankAPITesting.GET_User_Details@7dfb0c0f]" name="getUserDetails" class="paraBankAPITesting.GET_User_Details"/>
+        <method signature="POST_Bill_Pay.PostBillPay()[pri:3, instance:paraBankAPITesting.POST_Bill_Pay@626abbd0]" name="PostBillPay" class="paraBankAPITesting.POST_Bill_Pay"/>
+        <method signature="POST_Create_NewAccount.postCreateNewAccount()[pri:4, instance:paraBankAPITesting.POST_Create_NewAccount@169bb4dd]" name="postCreateNewAccount" class="paraBankAPITesting.POST_Create_NewAccount"/>
+        <method signature="POST_Deposit_Fund.postDepositFund()[pri:5, instance:paraBankAPITesting.POST_Deposit_Fund@1f9e9475]" name="postDepositFund" class="paraBankAPITesting.POST_Deposit_Fund"/>
+        <method signature="POST_Request_Loan.postRequestLoan()[pri:6, instance:paraBankAPITesting.POST_Request_Loan@3aa078fd]" name="postRequestLoan" class="paraBankAPITesting.POST_Request_Loan"/>
+        <method signature="POST_Transfer_Funds.postTransferFunds()[pri:7, instance:paraBankAPITesting.POST_Transfer_Funds@d23e042]" name="postTransferFunds" class="paraBankAPITesting.POST_Transfer_Funds"/>
+      </group> <!-- API Test -->
     </groups>
-    <test started-at="2026-07-20T02:34:48 IST" name="Retesting Cases" finished-at="2026-07-20T02:36:12 IST" duration-ms="83965">
-      <class name="paraBankTestCases.RetestingTestCases">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:34:49 IST" name="launchBrowser" finished-at="2026-07-20T02:35:01 IST" duration-ms="11962" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyBalanceAmountUpdate()[pri:0, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:35:01 IST" name="verifyBalanceAmountUpdate" finished-at="2026-07-20T02:35:30 IST" duration-ms="29573" status="PASS">
+    <test started-at="2026-07-22T02:40:27 IST" name="API Automation Suite" finished-at="2026-07-22T02:40:39 IST" duration-ms="11406">
+      <class name="paraBankAPITesting.POST_Request_Loan">
+        <test-method signature="postRequestLoan()[pri:6, instance:paraBankAPITesting.POST_Request_Loan@3aa078fd]" started-at="2026-07-22T02:40:38 IST" name="postRequestLoan" finished-at="2026-07-22T02:40:38 IST" duration-ms="501" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser for Test execution]]>
@@ -50,16 +74,10 @@
               <![CDATA[Test Case Successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyBalanceAmountUpdate -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:35:30 IST" name="closeBrowser" finished-at="2026-07-20T02:35:31 IST" duration-ms="1093" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:35:31 IST" name="launchBrowser" finished-at="2026-07-20T02:35:37 IST" duration-ms="5737" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyUniqueAccountNumber()[pri:1, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:35:37 IST" name="verifyUniqueAccountNumber" finished-at="2026-07-20T02:35:44 IST" duration-ms="6950" status="PASS">
+        </test-method> <!-- postRequestLoan -->
+      </class> <!-- paraBankAPITesting.POST_Request_Loan -->
+      <class name="paraBankAPITesting.POST_Transfer_Funds">
+        <test-method signature="postTransferFunds()[pri:7, instance:paraBankAPITesting.POST_Transfer_Funds@d23e042]" started-at="2026-07-22T02:40:38 IST" name="postTransferFunds" finished-at="2026-07-22T02:40:39 IST" duration-ms="425" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser for Test execution]]>
@@ -68,16 +86,10 @@
               <![CDATA[Test Case Successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyUniqueAccountNumber -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:35:44 IST" name="closeBrowser" finished-at="2026-07-20T02:35:45 IST" duration-ms="610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:35:45 IST" name="launchBrowser" finished-at="2026-07-20T02:35:50 IST" duration-ms="4918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLoanDetailsVisibility()[pri:2, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:35:50 IST" name="verifyLoanDetailsVisibility" finished-at="2026-07-20T02:35:57 IST" duration-ms="7575" status="PASS">
+        </test-method> <!-- postTransferFunds -->
+      </class> <!-- paraBankAPITesting.POST_Transfer_Funds -->
+      <class name="paraBankAPITesting.POST_Bill_Pay">
+        <test-method signature="PostBillPay()[pri:3, instance:paraBankAPITesting.POST_Bill_Pay@626abbd0]" started-at="2026-07-22T02:40:36 IST" name="PostBillPay" finished-at="2026-07-22T02:40:37 IST" duration-ms="788" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser for Test execution]]>
@@ -86,16 +98,10 @@
               <![CDATA[Test Case Successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyLoanDetailsVisibility -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:35:57 IST" name="closeBrowser" finished-at="2026-07-20T02:35:58 IST" duration-ms="627" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:35:58 IST" name="launchBrowser" finished-at="2026-07-20T02:36:05 IST" duration-ms="6672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyProfileUpdate()[pri:3, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:36:05 IST" name="verifyProfileUpdate" finished-at="2026-07-20T02:36:12 IST" duration-ms="7129" status="PASS">
+        </test-method> <!-- PostBillPay -->
+      </class> <!-- paraBankAPITesting.POST_Bill_Pay -->
+      <class name="paraBankAPITesting.GET_Account_By_Id">
+        <test-method signature="getAccountById()[pri:0, instance:paraBankAPITesting.GET_Account_By_Id@5c86a017]" started-at="2026-07-22T02:40:27 IST" name="getAccountById" finished-at="2026-07-22T02:40:35 IST" duration-ms="7471" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser for Test execution]]>
@@ -104,12 +110,56 @@
               <![CDATA[Test Case Successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyProfileUpdate -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paraBankTestCases.RetestingTestCases@16f7b4af]" started-at="2026-07-20T02:36:12 IST" name="closeBrowser" finished-at="2026-07-20T02:36:12 IST" duration-ms="625" status="PASS">
+        </test-method> <!-- getAccountById -->
+      </class> <!-- paraBankAPITesting.GET_Account_By_Id -->
+      <class name="paraBankAPITesting.GET_User_Details">
+        <test-method signature="getUserDetails()[pri:2, instance:paraBankAPITesting.GET_User_Details@7dfb0c0f]" started-at="2026-07-22T02:40:36 IST" name="getUserDetails" finished-at="2026-07-22T02:40:36 IST" duration-ms="449" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- paraBankTestCases.RetestingTestCases -->
-    </test> <!-- Retesting Cases -->
+        </test-method> <!-- getUserDetails -->
+      </class> <!-- paraBankAPITesting.GET_User_Details -->
+      <class name="paraBankAPITesting.GET_List_Of_Transaction_For_An_Account">
+        <test-method signature="getListOfTransactionForAnAccount()[pri:1, instance:paraBankAPITesting.GET_List_Of_Transaction_For_An_Account@7d3e8655]" started-at="2026-07-22T02:40:35 IST" name="getListOfTransactionForAnAccount" finished-at="2026-07-22T02:40:36 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getListOfTransactionForAnAccount -->
+      </class> <!-- paraBankAPITesting.GET_List_Of_Transaction_For_An_Account -->
+      <class name="paraBankAPITesting.POST_Deposit_Fund">
+        <test-method signature="postDepositFund()[pri:5, instance:paraBankAPITesting.POST_Deposit_Fund@1f9e9475]" started-at="2026-07-22T02:40:37 IST" name="postDepositFund" finished-at="2026-07-22T02:40:38 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postDepositFund -->
+      </class> <!-- paraBankAPITesting.POST_Deposit_Fund -->
+      <class name="paraBankAPITesting.POST_Create_NewAccount">
+        <test-method signature="postCreateNewAccount()[pri:4, instance:paraBankAPITesting.POST_Create_NewAccount@169bb4dd]" started-at="2026-07-22T02:40:37 IST" name="postCreateNewAccount" finished-at="2026-07-22T02:40:37 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Browser for Test execution]]>
+            </line>
+            <line>
+              <![CDATA[Test Case Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCreateNewAccount -->
+      </class> <!-- paraBankAPITesting.POST_Create_NewAccount -->
+    </test> <!-- API Automation Suite -->
   </suite> <!-- ParaBank Automation Suite -->
 </testng-results>
